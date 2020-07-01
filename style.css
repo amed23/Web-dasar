@@ -1,0 +1,147 @@
+
+body {
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+
+
+
+}
+
+
+
+.jumbotron{
+	font-size: 20px;
+	text-align: center;
+	font-weight:bold; 
+	color : #ff0000;
+	padding: 60px;
+	background-color: #6a5acd;
+	background-repeat: no-repeat;
+	background-size: 1600px;
+
+
+}
+
+header{
+	display: inline;
+}
+	
+h2, h3 {
+	color: #757573;
+}
+
+nav{
+	background-color: #0000ff;
+	padding: 5px;
+	position: sticky;
+	top: 0;
+}
+
+nav li{
+	display: inline;
+	list-style-type: none;
+	margin-right: 20px; 
+}
+
+nav a{
+	font-size: 18px;
+	font-weight: 400;
+	text-decoration: none;
+	color: white;
+}
+
+nav a:hover{
+	font-weight: bold;
+	font-size:1.5em;
+	text-decoration: underline;
+}
+
+.profile header{
+	text-align: center;
+}
+
+.featured-image{
+	width: 100%;
+	max-height: 500px;
+	object-fit: cover;
+	object-position: center;
+
+}
+
+.profile img{
+	width: 	200px;
+}
+
+.card{
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 15px;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+article a {
+	text-decoration: none;
+
+}
+
+article img{
+	object-position: center;
+		width: 950px;
+}
+
+
+
+main {
+	padding: 20px;
+	overflow: auto;
+
+}
+
+#content{
+	float: left;
+	width: 75%;
+
+}
+
+
+aside{
+	float: right;
+	width: 25%;
+	text-align; left;
+	padding-left: 20px;		
+}
+
+*{
+	box-sizing: border-box;
+}
+
+footer {
+	padding: 20px;
+	color: white;
+	background-color: #0000ff;
+	text-align: center;
+	font-weight: bold;
+
+}
+
+.profile section{
+text-align: left;
+
+}
+
+
+.text {
+	text-align: justify;
+}
+
+section .text2{
+	text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+   #content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
